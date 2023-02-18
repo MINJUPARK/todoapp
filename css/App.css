@@ -1,0 +1,24 @@
+.App {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 450px;
+  width: 90%;
+  padding: 50px 40px;
+  border-radius: 20px;
+  box-shadow: 0px 2px 29px 0px rgba(0, 0, 0, 0.06);
+  background: white;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 800;
+}
+h1 span {
+  color: #434ce8;
+}
+h1 [role=img] {
+  margin-right: 5px;
+  font-size: 28px;
+}/*# sourceMappingURL=App.css.map */

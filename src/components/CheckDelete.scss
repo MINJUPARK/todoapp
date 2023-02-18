@@ -1,0 +1,31 @@
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 0 10px 10px;
+
+    & * {
+        font-size: 15px;
+    }
+
+    label {
+        font-weight: 600;
+
+        input[type=checkbox] {
+            margin-right: 10px;
+            transform: translateY(6px);
+        }
+    }
+    
+
+    #delete {
+        display: flex;
+        color: red;
+        font-weight: 600;
+
+        svg {
+            margin-right: 2px;
+        }
+    }
+}
+

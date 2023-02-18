@@ -1,0 +1,24 @@
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 0 10px 10px;
+}
+.row * {
+  font-size: 15px;
+}
+.row label {
+  font-weight: 600;
+}
+.row label input[type=checkbox] {
+  margin-right: 10px;
+  transform: translateY(6px);
+}
+.row #delete {
+  display: flex;
+  color: red;
+  font-weight: 600;
+}
+.row #delete svg {
+  margin-right: 2px;
+}/*# sourceMappingURL=CheckDelete.css.map */

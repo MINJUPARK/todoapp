@@ -1,0 +1,77 @@
+ul {
+  height: 354px;
+  border-top: 2px solid #e1e6f9;
+  border-bottom: 2px solid #e1e6f9;
+  overflow-y: auto;
+}
+ul li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 10px;
+}
+ul li:nth-child(even) {
+  border-top: 1px solid #e1e6f9;
+  border-bottom: 1px solid #e1e6f9;
+}
+ul li:last-child {
+  border-bottom: 0;
+}
+ul li.off {
+  background-color: #f3f3f3;
+}
+ul li input[type=text] {
+  padding: 10px;
+  margin-left: 23px;
+  border: 1px solid #e1e6f9;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+ul li input[type=text]:focus {
+  border: 1px solid #434ce8;
+}
+ul li button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  transition: all 0.3s;
+}
+ul li button:hover {
+  background: #f3f3f3;
+}
+ul li button path {
+  transition: all 0.3s;
+  color: #999;
+}
+ul li button path:hover {
+  color: #434ce8;
+  opacity: 1;
+}
+ul li button:disabled {
+  cursor: not-allowed;
+}
+ul li .checkbox-field {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+}
+ul li .checkbox-field label {
+  flex: 1;
+  margin: 0 10px;
+}
+ul li .checkbox-field label.active {
+  opacity: 0.5;
+  text-decoration: line-through;
+}
+ul li .checkbox-field .name {
+  font-weight: 700;
+}
+ul li .checkbox-field .date {
+  font-size: 0.8rem;
+  color: #999;
+}/*# sourceMappingURL=ListItem.css.map */
